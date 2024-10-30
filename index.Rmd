@@ -13,3 +13,5 @@ output:
 ### Link to Resume page
 This is Qianxuan Huang's [Resume](Resume.html).
 
+### Solution of Problem 2 in P8105 homework 4
+The whole solution of code and plots are in [flexdashboard](flexdashboard.html).

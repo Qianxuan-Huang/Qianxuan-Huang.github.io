@@ -6,11 +6,9 @@ output:
     toc: true
     toc_float: true
 ---
-```{r, echo=FALSE}
-library(plotly)
+```{r, echo=FALSE, include=FALSE}
 library(tidyverse)
 library(dplyr)
-library(rnoaa)
 
 ny_noaa = read_csv("./data/nynoaadat.csv", na = c("NA", "", "."))
 
@@ -26,6 +24,15 @@ snow: Snowfall (mm) <br>
 snwd: Snow depth (mm) <br>
 tmax: Maximum temperature (tenths of degrees C) <br>
 tmin: Minimum temperature (tenths of degrees C) <br>
+
+```{r}
+library(rnoaa)
+library(p8105.datasets)
+library(plotly)
+
+# load dataset
+data("ny_noaa")
+```
 
 ```{r}
 # Data cleaning: Choose entries with nonzero snowfall and restrict it to a maximum of 200 inches of snowfall.
