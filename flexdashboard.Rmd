@@ -6,7 +6,7 @@ output:
     toc: true
     toc_float: true
 ---
-```{r}
+```{r, echo=FALSE}
 library(plotly)
 library(tidyverse)
 library(dplyr)
@@ -61,7 +61,7 @@ ny_noaa_df %>%
          yaxis = list(title = 'Number Snowy Days'))
 ```
 
-### Chart B: scatterplot
+### Chart C: scatterplot
 ```{r}
 ny_noaa_df %>%
   plot_ly(x = ~tmin, y = ~tmax, color = ~month, opacity=0.5, colors = "viridis") %>%
