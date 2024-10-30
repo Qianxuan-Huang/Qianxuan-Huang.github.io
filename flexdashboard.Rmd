@@ -5,7 +5,6 @@ output:
     code_folding: hide
     toc: true
     toc_float: true
-
 ---
 
 ### Problem 2 in P8105 homework 4

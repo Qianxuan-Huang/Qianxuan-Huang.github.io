@@ -1,5 +1,5 @@
 ---
-title: "Qianxuan Huang's website"
+title: "Website of Qianxuan Huang"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,11 @@ output:
     theme: cerulean
 ---
 
-# This is Qianxuan's awesome website
+### Welcome. Nice to meet you!
 
-![]()
+![](https://Qianxuan-Huang.github.io/qianxuan_huang.github.io/)
+
+
+
+### Link to Resume page
+[Resume](Resume.html)
