@@ -7,11 +7,8 @@ output:
     theme: cerulean
 ---
 
-### Welcome. Nice to meet you!
-
-![](https://Qianxuan-Huang.github.io/qianxuan_huang.github.io/)
-
+## Welcome. Nice to meet you!
 
 
 ### Link to Resume page
-[Resume](Resume.html)
+This is Qianxuan Huang's [Resume](Resume.html).
